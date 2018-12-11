@@ -1,0 +1,4 @@
+1 drink
+2 shake_hands
+3 sit
+4 smile
