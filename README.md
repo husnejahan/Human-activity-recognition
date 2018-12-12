@@ -122,7 +122,7 @@ python3 train100_Adam.py
 
 4. To test the model
 
-run inference-new.ipynb, after changing the test video path and outfile path 
+run inference-new.ipynb, after changing the test video path and output file path 
 
 # Tensorboard:To visualize the accuracy and loss after every epoch
 
