@@ -92,6 +92,8 @@ Install CUDA Toolkit v9.0 and cuDNN v7.0
 
 For PyTorch dependency, see pytorch.org for more details
 
+Install OpenCV
+
 sudo apt-get update
 
 pip3 install tensorflow-gpu==1.5
@@ -116,13 +118,13 @@ Now follow the steps:
 
 3. To train the model
 
-python3 train100_SGD.py
+    python3 train100_SGD.py
 
-python3 train100_Adam.py
+    python3 train100_Adam.py
 
 4. To test the model
 
-run inference-new.ipynb, after changing the test video path and output file path 
+run inference-new.ipynb, after changing the test video path and output file path and saved model path
 
 # Tensorboard:To visualize the accuracy and loss after every epoch
 
