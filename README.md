@@ -54,6 +54,16 @@ The filders inside hmdb51_dataset will be as below:
 
 Now inside hmdb51_preprocess folder create train,test and val folder as below-
 
+cd /hmdb51_preprocess/train
+
+mkdir drink
+
+mkdir sit
+
+mkdir smile
+
+mkdir shake_hands
+
 ├── train
 
 │   ├──drink
@@ -72,7 +82,45 @@ Now inside hmdb51_preprocess folder create train,test and val folder as below-
 
 │   └──sit...
 
-# Installation
+
+# Installation:GPU
+
+custom (10 vCPUs, 45 GB memory),1 x NVIDIA Tesla P100,
+
+Install CUDA Toolkit v9.0 and cuDNN v7.0
+
+For PyTorch dependency, see pytorch.org for more details
+
+sudo apt-get update
+
+pip3 install tensorflow-gpu==1.5
+
+pip3 install tensorboardX
+
+pip3 install sklearn
+
+pip3 install opencv-python
+
+pip3 install torch
+
+pip3 install torchvision
+
+pip3 install tqdm
+
+Now follow the steps:
+
+1. Download pretrained model
+
+2. Configure your dataset and pretrained model path in mypath.py
+
+3.To train the model
+
+python3 train.py
+
+
+# Tensorboard:
+main command
+tensorboard --logdir='./logs' --port=5006
 
 
 
