@@ -29,19 +29,48 @@ unrar x shake_hands.rar
 The filders inside hmdb51_dataset will be as below:
 
 ├── drink
+
 │   ├──.....avi
-│   └── ...
-├── shake_hands
-│   ├── ....avi
-│   └── ...
-└── sit
-│   ├──.....avi
-│   └── ...
-└── smile
-│   ├── .....avi
+
 │   └── ...
 
-Now 
+├── shake_hands
+
+│   ├── ....avi
+
+│   └── ...
+
+└── sit
+
+│   ├──.....avi
+
+│   └── ...
+
+└── smile
+
+│   ├── .....avi
+
+│   └── ...
+
+Now inside hmdb51_preprocess folder create train,test and val folder as below-
+
+├── train
+
+│   ├──drink
+
+│   └── sit...
+
+├── test
+
+│   ├──drink
+
+│   └──sit...
+
+└── val
+
+│   ├──drink
+
+│   └──sit...
 
 # Installation
 
