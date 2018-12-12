@@ -113,13 +113,18 @@ Now follow the steps:
 
 2. Configure your dataset and pretrained model path in mypath.py
 
-3.To train the model
+3. To train the model
 
-python3 train.py
+python3 train100_SGD.py
 
+python3 train100_Adam.py
 
-# Tensorboard:
-main command
+4. To test the model
+
+python3 train100_Adam.py
+
+# Tensorboard:To visualize the accuracy and loss after every epoch
+
 tensorboard --logdir='./logs' --port=5006
 
 
