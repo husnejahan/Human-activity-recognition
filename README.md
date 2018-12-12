@@ -1,5 +1,6 @@
 # Human-activity-recognition
 Optimized 3D CNN model for Human activity recognition
+
 # Download dataset and Extract
 
 Download the dataset from http://serre-lab.clps.brown.edu/resource/hmdb-a-large-human-motion-database/#Downloads
@@ -83,7 +84,7 @@ mkdir shake_hands
 │   └──sit...
 
 
-# Installation:GPU
+# Installation:For GPU
 
 custom (10 vCPUs, 45 GB memory),1 x NVIDIA Tesla P100,
 
@@ -121,7 +122,7 @@ python3 train100_Adam.py
 
 4. To test the model
 
-python3 train100_Adam.py
+run inference-new.ipynb, after changing the test video path and outfile path 
 
 # Tensorboard:To visualize the accuracy and loss after every epoch
 
