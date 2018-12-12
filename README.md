@@ -114,7 +114,7 @@ Now follow the steps:
 
 1. Download pretrained model
 
-2. Configure your dataset and pretrained model path in mypath.py
+2. Configure the dataset and pretrained model path in mypath.py
 
 3. To train the model
 
